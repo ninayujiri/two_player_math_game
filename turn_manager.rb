@@ -1,6 +1,6 @@
 class TurnManager
   def initialize(players)
-    @players = players.dup.shuffle
+    @players = players
   end
 
   def current_player
